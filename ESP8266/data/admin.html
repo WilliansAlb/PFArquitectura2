@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Arqui2</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div class="background">
+	</div>
+	<div class="container">
+		<img src="https://cdn-icons-png.flaticon.com/512/4006/4006511.png" alt="">
+		<h1>Hospital Arqui2</h1>
+		<div class="container-areas">
+			<div class="area" >
+				<select name="area" id="area" onchange="cambioArea(this)">
+					<option value="0">Cardiologia</option>
+					<option value="1">Farmacia</option>
+					<option value="2">Laboratorio</option>
+					<option value="3">Odontologia</option>
+					<option value="4">Pediatria</option>
+				</select>
+				<div class="area-element">
+					<img src="https://cdn-icons-png.flaticon.com/512/3791/3791146.png" alt="">
+					<span id="a0">0</span>
+				</div>
+				<div class="area-element">
+					<img src="https://cdn-icons-png.flaticon.com/512/3791/3791120.png" alt="">
+					<span id="t0">0</span>
+				</div>
+				<div class="area-element">
+					<h5>Aforo maximo</h5>
+					<br>
+					<span id="m0">0</span>
+				</div>
+				<img src="https://i.pinimg.com/originals/2b/0e/45/2b0e457d027a972413c38107a5fce9c0.gif" alt="i" id="ventilador" style="display: none;">
+				<span id="generado"></span>
+				<button onclick="generar()">GENERAR TURNO NUEVO</button>
+			</div>
+		</div>
+		<script src="admin.js"></script>
+	</div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+h1 {
+	color: yellow;
+}
+
+.background{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-image: url(https://sgmh.org/wp-content/uploads/2020/01/AdobeStock_279753293.jpeg);
+	background-size: cover;
+	z-index: -100;
+}
+
+*{
+	margin: 0;
+	font-family: 'Bakbak One', cursive;
+}
+
+.container{
+	display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+	height: 100vh;
+}
+
+.container img{
+	width: 10%;
+}
+
+.container-areas{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.area{    
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccdde5;
+    margin: 0.5em;
+    border-radius: 1em;
+    width: 35%;
+}
+
+.area-element{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+	font-size: 2em;
+}
+
+.title {
+	font-size: 2.5em;
+}
